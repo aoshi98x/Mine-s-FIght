@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class EmeraldPoints : MonoBehaviour
 {
-    AudioSource points;
+    
     // Start is called before the first frame update
     void Start()
     {
-        points = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -16,7 +16,6 @@ public class EmeraldPoints : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            points.Play();
             StartCoroutine(DestroyFunc());
         }
     }

@@ -9,15 +9,19 @@ public class PlayerController : MonoBehaviour
     CharacterController ccPlayer;
     Transform trPlayer;
     EnemyAI killCond;
+    public GameObject loseCanvas;
+    public GameObject pausedCanvas;
     float velocity = 3.0f;
     public float life= 50.0f;
     public bool inRange = false;
     public bool isAtacking = false;
     public bool isWalk = false;
+    public bool paused = false;
     public int score =0;
     public Text scoreText;
     public Text lifeText;
     public AudioSource fxPeak;
+    public AudioSource fxPoints;
     AudioSource fxWalk;
     
     // Start is called before the first frame update
@@ -45,12 +49,14 @@ public class PlayerController : MonoBehaviour
         Move();
         AnimationSwitch();
         Scanner();
+        Paused();
         if (life <= 0.0f)
         {
             animPlayer.SetBool("isDead", true);
             animPlayer.SetBool("isATK", false);
             animPlayer.SetBool("isWalk", false);
             this.enabled=false;
+            loseCanvas.SetActive(true);
         }
         if(Input.GetButtonDown("Jump"))
         {
@@ -79,7 +85,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (inRange && killCond.isAttack)
         {
-            life = life - 0.08f;
+            life = life - 0.8f;
             lifeText.text = "Life: " + life;
         }
         else
@@ -165,6 +171,7 @@ public class PlayerController : MonoBehaviour
     {
         if(other.gameObject.tag == "Points")
         {
+            fxPoints.Play();
             score = score + 150;
             scoreText.text = "Score: " + score;
         }
@@ -177,4 +184,22 @@ public class PlayerController : MonoBehaviour
         }
     }
     
+   void Paused()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            paused = !paused;
+        }
+        if(paused)
+        {
+            Time.timeScale = 0;
+            pausedCanvas.SetActive(true);
+        }
+        else
+        {
+            Time.timeScale = 1;
+            pausedCanvas.SetActive(false);
+        }
+    }
 }
+    
