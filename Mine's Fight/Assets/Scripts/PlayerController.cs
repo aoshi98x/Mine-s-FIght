@@ -186,7 +186,7 @@ public class PlayerController : MonoBehaviour
     
    void Paused()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.P))
         {
             paused = !paused;
         }
