@@ -1,0 +1,407 @@
+[
+  {
+    "ID": 0,
+    "Title": "Hechicera del Pantano",
+    "Description": "Una hechicera que busca siempre presas de otros reinos para incrementar su poder. Habilidad Esp: Puedes consumir una de las bestias de tu oponente en la arena durante la batalla. Incrementa tu ATK igual a la DEF de la bestia seleccionada.",
+    "Type": "Bosque",
+    "Level": 3,
+    "ATK": 500,
+    "DEF": 800
+  },
+  {
+    "ID": 1,
+    "Title": "Guerrera Montés",
+    "Description": "Poderosa guerrera que defiende los ambientes màs altos de las cordilleras. Habilidad Esp: Si logras ganar a una bestia y hay otra en la arena con el mismo nivel, destruye ambas bestias.",
+    "Type": "Bosque",
+    "Level": 6,
+    "ATK": 2500,
+    "DEF": 2650
+  },
+  {
+    "ID": 2,
+    "Title": "Caballero Pyro",
+    "Description": "Caballero valiente hijo del sol. Habilidad Esp: Cuando esta carta entra en batalla: - Si está en posición de ATK, gana 300 puntos de ATK. - Si está en posición de DEF, gana 100 puntos de DEF.",
+    "Type": "Bosque",
+    "Level": 4,
+    "ATK": 1600,
+    "DEF": 1800
+  },
+  {
+    "ID": 3,
+    "Title": "Danzadora del Pantano",
+    "Description": "Gracil espíritu del bosque. Genera paz con sus bailes armónicos. Habilidad Esp: Si tienes bestias del bosque en tu cementerio, y esta es tu única bestia en la arena, puedes llamar una de esas bestias del bosque nivel IV o menor al campo.",
+    "Type": "Bosque",
+    "Level": 5,
+    "ATK": 500,
+    "DEF": 300
+  },
+  {
+    "ID": 4,
+    "Title": "Anima Consumer",
+    "Description": "Un demonio que busca siempre presas para incrementar su poder. Habilidad Esp: Puedes consumir una de las bestias de tu oponente durante la batalla. Incrementa tu ATK igual a la DEF de la bestia elegida",
+    "Type": "Nicrom",
+    "Level": 3,
+    "ATK": 500,
+    "DEF": 300
+  },
+  {
+    "ID": 5,
+    "Title": "Pulvis Komori",
+    "Description": "Fiel guardaespaldas de la Reina Komori, se fortalece con la oscuridad. Habilidad Esp: Puedes enviar esta carta al cementerio, luego, selecciona una bestia Nicrom en el campo, esa bestia no muere en el primer ataque recibido.",
+    "Type": "Nicrom",
+    "Level": 4,
+    "ATK": 900,
+    "DEF": 1000
+  },
+  {
+    "ID": 6,
+    "Title": "Tenebrae Spinae",
+    "Description": "Demonio acorazado que custodia el castillo de la reina. Habilidad Esp: Durante la batalla: Si el oponente ataca a esta carta y está en posición defensiva, iguala la DEF al ATK de la bestia enemiga.",
+    "Type": "Nicrom",
+    "Level": 2,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 7,
+    "Title": "Infernum Cimex",
+    "Description": "Sombras tenebrosas que se alimentan de pequeñas criaturas. Habilidad Esp: Durante la batalla si el oponente ataca a esta carta y está en posición defensiva, iguala la DEF al ATK de la bestia enemiga.",
+    "Type": "Nicrom",
+    "Level": 5,
+    "ATK": 1500,
+    "DEF": 2300
+  },
+  {
+    "ID": 8,
+    "Title": "Un Guerrero Joven",
+    "Description": "Un guerrero noble que siempre busca el bienestar de su reino",
+    "Type": "Bosque",
+    "Level": 2,
+    "ATK": 1200,
+    "DEF": 1500
+  },
+  {
+    "ID": 9,
+    "Title": "Nodriza Espiritual",
+    "Description": "Esta nodriza vigila los bosques a la espera de cualquier amenaza",
+    "Type": "Bosque",
+    "Level": 3,
+    "ATK": 800,
+    "DEF": 1100
+  },
+  {
+    "ID": 10,
+    "Title": "Cuidadora de Jardín",
+    "Description": "Inocente espìritu del bosque que procura el cuidado de las diferentes plantas en la zona donde reside.",
+    "Type": "Bosque",
+    "Level": 1,
+    "ATK": 350,
+    "DEF": 1100
+  },
+  {
+    "ID": 11,
+    "Title": "Semillera de Flores",
+    "Description": "Semillera y gestora de plantas dentro del reino del bosque, fiel seguidora de su reina.",
+    "Type": "Bosque",
+    "Level": 5,
+    "ATK": 1750,
+    "DEF": 1900
+  },
+  {
+    "ID": 12,
+    "Title": "Polinizadora",
+    "Description": "Pequeña acompañante de los seres del bosque. Su propósito es incentivar la reproducción de las plantas.",
+    "Type": "Bosque",
+    "Level": 4,
+    "ATK": 1200,
+    "DEF": 1500
+  },
+  {
+    "ID": 13,
+    "Title": "Caballero de Fuego",
+    "Description": "Valiente guerrero que usa su lanza mìstica para defender su reino.",
+    "Type": "Bosque",
+    "Level": 5,
+    "ATK": 2000,
+    "DEF": 2100
+  },
+  {
+    "ID": 14,
+    "Title": "Monarca de Luz",
+    "Description": "Un sabio monarca que busca preservar su refugio de especies.",
+    "Type": "Bosque",
+    "Level": 7,
+    "ATK": 2700,
+    "DEF": 2750
+  },
+  {
+    "ID": 15,
+    "Title": "Vespertilio",
+    "Description": "Lacayo de la reina, usualmente se utiliza como sacrificio o para consumo de criaturas de más jerarquía en el reino.",
+    "Type": "Nicrom",
+    "Level": 1,
+    "ATK": 1000,
+    "DEF": 1300
+  },
+  {
+    "ID": 16,
+    "Title": "Anima Hunter",
+    "Description": "Cazador de espiritus, su misión es llevar la mayor cantidad de almas a su reina.",
+    "Type": "Nicrom",
+    "Level": 2,
+    "ATK": 1350,
+    "DEF": 1400
+  },
+  {
+    "ID": 17,
+    "Title": "Pulchra Fata",
+    "Description": "Demonio seductor. Busca principalmente seres débiles a las tentaciones para alimentarse de sus deseos.",
+    "Type": "Nicrom",
+    "Level": 3,
+    "ATK": 1400,
+    "DEF": 1500
+  },
+  {
+    "ID": 18,
+    "Title": "Anguis Dux",
+    "Description": "Domador de las bestías de fuego del reino. Es capaz de alinear las más feroces para poder utilizarlas en enfrentamientos o en defensa del reino.",
+    "Type": "Nicrom",
+    "Level": 4,
+    "ATK": 1500,
+    "DEF": 1600
+  },
+  {
+    "ID": 19,
+    "Title": "Infernum Domitor",
+    "Description": "Guerrero de la reina, usualmente es de los más confiables para defender al reino en batalla.",
+    "Type": "Nicrom",
+    "Level": 5,
+    "ATK": 1700,
+    "DEF": 1800
+  },
+  {
+    "ID": 20,
+    "Title": "Dulce Malum",
+    "Description": "No confundir su aparencia con su amenaza. Gran arma de la reina ya que confunde y con su gran fuerza elimina enemigos de manera implacable.",
+    "Type": "Nicrom",
+    "Level": 6,
+    "ATK": 2100,
+    "DEF": 2200
+  },
+  {
+    "ID": 21,
+    "Title": "Komori Bellator",
+    "Description": "Un alto mando del ejercito de la Reina. Muy letal y precisa.",
+    "Type": "Nicrom",
+    "Level": 7,
+    "ATK": 2200,
+    "DEF": 2500
+  },
+  {
+    "ID": 22,
+    "Title": "Alteración del Orden Natural",
+    "Description": "Puedes poner una ficha de bosque LVL II con: ATK 500 / DEF 500. Tú eliges la posición de batalla.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 23,
+    "Title": "Reino del Este",
+    "Description": "Al activar esta carta, los puntos de tus bestias no se ven afectados en la batalla hasta tu siguiente turno.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 24,
+    "Title": "Terrenos del Conde Idril",
+    "Description": "Utiliza esta carta cuando no tengas bestias en la arena. Puedes llamar desde tu mano, cementerio o baraja, una bestia nivel IV o dos bestias nivel II.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 25,
+    "Title": "Tierras Olvidadas del Norte",
+    "Description": "Selecciona una bestia de tu adversario, puedes usarla como uno de tus tributos para invocar otra bestia.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 26,
+    "Title": "Jardín Lila",
+    "Description": "Si tu reina es atacada directamente y es más débil que la bestia atacante, iguala los puntos de ATK y termina la batalla. Ningúna carta se destruye.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 27,
+    "Title": "Sombras de Refuerzo",
+    "Description": "Activa esta carta cuando más de 2 bestias de tipo Nicrom han sido destruidas. Suma los niveles de las bestias destruidas e invoca desde tu baraja otra bestia que tenga el nivel del resultado de dicha suma.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 28,
+    "Title": "Pequeñas Pestes",
+    "Description": "Por cada bestia oscuridad Nivel III o inferior en tu cementerio, súma 100 de ATK a tu Reina Komori.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 29,
+    "Title": "Negociación de Tierras Baldías",
+    "Description": "Si no tienes espacios para bestias, puedes seleccionar una de tus bestias y cambiarla por una en tu mano con el mismo nivel.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 30,
+    "Title": "Demonios Juguetones",
+    "Description": "Una vez por turno, puedes seleccionar una bestia en tu campo y enviarla al cementerio, después de eso, elimina una bestia de igual nivel en el campo de tu adversario.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 31,
+    "Title": "Ritual de Aprendizaje",
+    "Description": "Al activar esta carta: Si no tienes un conjuro en tu mano, puedes enviar este al cementerio, luego elegir uno en tu baraja y ponerlo en tu mano. Ese conjuro no puede ser activado este turno.",
+    "Type": "Conjuro",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 32,
+    "Title": "Barrera del Bosque",
+    "Description": "Si tu oponente declara un ataque, niega el ataque del oponente y él puede activar este mismo recurso en el siguiente turno.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 33,
+    "Title": "Destino Celestial",
+    "Description": "Si tu oponente activa un conjuro: -Niega su activación y, si tienes un recurso ó conjuro en tu mano, puedes ponerlo en el campo para activarlo después.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 34,
+    "Title": "Hechicera Mística",
+    "Description": "Si atacan a tu reina: Puedes convertir esta carta en una bestia en posición defensiva con ATK=0 y DEF = 2000, las bestias de tu oponente sólamente pueden atacar esta carta hasta que acabe el turno en que fue activado este efecto.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 35,
+    "Title": "Respiro Gracil",
+    "Description": "Devuelve hasta 4 cartas al azar del cementerio a la baraja de cada jugador. Si hay menos de 4 cartas en algúno de los cementerios, devuelve la cantidad que haya.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 36,
+    "Title": "Colección de Conocimiento",
+    "Description": "Si no has invocado bestias en este turno, toma una carta de la baraja.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 37,
+    "Title": "Maestro del Tiempo",
+    "Description": "Todas las cartas vuelven a las manos de sus respectivos dueños. No se puede combatir en el turno que esta carta fue activada.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 38,
+    "Title": "Cuevas de Komori",
+    "Description": "Roba una carta cuando finalices el turno en que esta carta fue activada.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 39,
+    "Title": "Komori Canibal",
+    "Description": "Sacrifica hasta 2 bestias Nicrom en tu campo, luego suma el ATK de esas bestias a la bestia que eligas. Esa bestia debe ser sacrificada en 3 turnos.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 40,
+    "Title": "Marcha Pulvis",
+    "Description": "Devuelve las cartas de tu mano a la baraja, mezclala y luego, toma la misma cantidad de cartas que tenías.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 41,
+    "Title": "Vuelo Spinae",
+    "Description": "Si tu reina está desprotegida y tienes una bestia con nombre \"Spinae\" en tu mano o cementerio, puedes llamarla a la arena y dejarla en posición defensiva.",
+    "Type": "Recurso",
+    "Level": -1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 42,
+    "Title": "Reina Ulises",
+    "Description": "Reina venevolente defensora de la vida y la prosperidad. Su deber es Polinizar. Habilidad Esp: Puedes llamar un Token del Bosque de LVL IV ó, restar el ATK de esta carta a la bestia que elijas en el campo del adversario.",
+    "Type": "Reina",
+    "Level": 3,
+    "ATK": 500,
+    "DEF": 0
+  },
+  {
+    "ID": 43,
+    "Title": "Reina Komori",
+    "Description": "Oscura mandataria, no es conflictiva, pero, siempre busca territorios desolados que ocupar. Habilidad Esp: Consume bestias Nicrom desde el cementerio. Suma ese ATK a esta carta, max. 3. Si en el siguiente turno quieres agregar más, desecha 1 bestia pasada por cada bestia nueva que consumas.",
+    "Type": "Reina",
+    "Level": 1,
+    "ATK": 0,
+    "DEF": 0
+  },
+  {
+    "ID": 44,
+    "Title": "Token del Bosque",
+    "Description": "Bestia estándar creada a partir del poder de una Reina.",
+    "Type": "Token",
+    "Level": 4,
+    "ATK": 500,
+    "DEF": 2500
+  }
+]
